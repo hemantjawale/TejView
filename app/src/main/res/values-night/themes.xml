@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Night mode just points to the Dark aurora theme -->
+    <style name="Theme.TejView" parent="Theme.TejView.Dark" />
+</resources>

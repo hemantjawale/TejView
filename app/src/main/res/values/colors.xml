@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aurora Base Colors -->
+    <color name="aurora_background">#07070F</color>
+    <color name="aurora_background_secondary">#09090E</color>
+    <color name="aurora_surface">#0A0A14</color>
+    <color name="aurora_card_surface">#0B0B16</color>
+    <color name="aurora_card_border">#14141F</color>
+
+    <!-- Primary Accent - Soft Violet -->
+    <color name="aurora_primary">#A78BFA</color>
+    <color name="aurora_primary_dark">#8B5CF6</color>
+    <color name="aurora_primary_light">#C4B5FD</color>
+    <color name="aurora_primary_muted">#6D28D9</color>
+    <color name="aurora_primary_surface">#1A1025</color>
+
+    <!-- Success / SpO2 - Emerald Green -->
+    <color name="aurora_success">#34D399</color>
+    <color name="aurora_success_dark">#10B981</color>
+    <color name="aurora_success_light">#6EE7B7</color>
+    <color name="aurora_success_surface">#0D1F17</color>
+
+    <!-- Warning / Alerts - Warm Amber -->
+    <color name="aurora_warning">#FB923C</color>
+    <color name="aurora_warning_dark">#F97316</color>
+    <color name="aurora_warning_light">#FBBF24</color>
+    <color name="aurora_warning_surface">#1F170D</color>
+
+    <!-- Error / Critical -->
+    <color name="aurora_error">#F87171</color>
+    <color name="aurora_error_dark">#EF4444</color>
+
+    <!-- Text Colors -->
+    <color name="aurora_text_primary">#F0F0F5</color>
+    <color name="aurora_text_secondary">#9CA3AF</color>
+    <color name="aurora_text_tertiary">#6B7280</color>
+    <color name="aurora_text_muted">#4B5563</color>
+
+    <!-- Glow Colors -->
+    <color name="aurora_glow_purple">#3F7C3AED</color>
+    <color name="aurora_glow_green">#3310B981</color>
+    <color name="aurora_glow_purple_soft">#1A7C3AED</color>
+    <color name="aurora_glow_green_soft">#1A10B981</color>
+
+    <!-- Chart Colors -->
+    <color name="aurora_chart_violet">#A78BFA</color>
+    <color name="aurora_chart_emerald">#34D399</color>
+    <color name="aurora_chart_amber">#FBBF24</color>
+    <color name="aurora_chart_coral">#FB7185</color>
+    <color name="aurora_chart_blue">#60A5FA</color>
+
+    <!-- Bottom Nav -->
+    <color name="aurora_nav_background">#0C0C16</color>
+    <color name="aurora_nav_indicator">#1A1025</color>
+
+    <!-- Misc -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Sleep Phase Colors -->
+    <color name="sleep_awake">#FB923C</color>
+    <color name="sleep_rem">#A78BFA</color>
+    <color name="sleep_light">#60A5FA</color>
+    <color name="sleep_deep">#1E3A5F</color>
+
+    <!-- Health Category Colors -->
+    <color name="health_heart">#FB7185</color>
+    <color name="health_oxygen">#34D399</color>
+    <color name="health_steps">#A78BFA</color>
+    <color name="health_calories">#FBBF24</color>
+    <color name="health_water">#60A5FA</color>
+    <color name="health_protein">#F472B6</color>
+    <color name="health_mental">#C084FC</color>
+    <color name="health_gym">#FB923C</color>
+
+    <!-- ====== LIGHT MODE COLORS ====== -->
+    <color name="light_background">#F5F0FF</color>
+    <color name="light_background_secondary">#EDE8F5</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_card_surface">#CCFFFFFF</color>
+    <color name="light_card_border">#22A78BFA</color>
+
+    <color name="light_text_primary">#1A1A2E</color>
+    <color name="light_text_secondary">#3D3D5C</color>
+    <color name="light_text_tertiary">#6B6B8A</color>
+    <color name="light_text_muted">#9090A8</color>
+
+    <color name="light_nav_background">#F0EBF8</color>
+    <color name="light_nav_indicator">#E0D8F0</color>
+
+    <!-- Glassmorphism -->
+    <color name="glass_dark">#0AFFFFFF</color>
+    <color name="glass_dark_border">#14FFFFFF</color>
+    <color name="glass_light">#B3FFFFFF</color>
+    <color name="glass_light_border">#40A78BFA</color>
+    <color name="glass_serenity_light_start">#30A78BFA</color>
+    <color name="glass_serenity_light_center">#20FFFFFF</color>
+    <color name="glass_serenity_light_end">#2034D399</color>
+</resources>

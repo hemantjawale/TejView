@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme-aware custom attributes -->
+    <attr name="auroraBackground" format="color" />
+    <attr name="auroraCardSurface" format="color" />
+    <attr name="auroraCardBorder" format="color" />
+    <attr name="auroraTextPrimary" format="color" />
+    <attr name="auroraTextSecondary" format="color" />
+    <attr name="auroraTextTertiary" format="color" />
+    <attr name="auroraTextMuted" format="color" />
+    <attr name="auroraNavBackground" format="color" />
+    <attr name="auroraGlowAlpha" format="float" />
+    <attr name="auroraCardDrawable" format="reference" />
+    <attr name="auroraSerenityDrawable" format="reference" />
+    <attr name="auroraInputDrawable" format="reference" />
+</resources>

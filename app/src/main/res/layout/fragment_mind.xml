@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mind_title"
+            android:textColor="?attr/auroraTextPrimary"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Mood Tracker -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/auroraSerenityDrawable"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mind_how_feeling"
+                android:textColor="?attr/auroraTextSecondary"
+                android:textSize="13sp"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView android:id="@+id/btnMood1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="😢" android:textSize="28sp" android:padding="8dp" />
+                <TextView android:id="@+id/btnMood2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="😕" android:textSize="28sp" android:padding="8dp" />
+                <TextView android:id="@+id/btnMood3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="😐" android:textSize="28sp" android:padding="8dp" />
+                <TextView android:id="@+id/btnMood4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="🙂" android:textSize="28sp" android:padding="8dp" />
+                <TextView android:id="@+id/btnMood5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="😄" android:textSize="28sp" android:padding="8dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvMoodLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/aurora_primary"
+                android:textSize="13sp"
+                android:layout_marginTop="8dp"
+                tools:text="Feeling Good" />
+        </LinearLayout>
+
+        <!-- Stress Level -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/auroraCardDrawable"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mind_stress_level"
+                    android:textColor="?attr/auroraTextSecondary"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tvStressValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/aurora_warning"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium"
+                    tools:text="42" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressStress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="12dp"
+                android:max="100"
+                android:progressDrawable="@drawable/progress_aurora_amber"
+                tools:progress="42" />
+
+            <TextView
+                android:id="@+id/tvStressLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/auroraTextMuted"
+                android:textSize="11sp"
+                android:layout_marginTop="6dp"
+                tools:text="Moderate — try breathing exercises" />
+        </LinearLayout>
+
+        <!-- Digital Wellbeing -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/auroraCardDrawable"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mind_digital_wellbeing"
+                android:textColor="?attr/auroraTextSecondary"
+                android:textSize="13sp"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="📱" android:textSize="24sp" />
+                    <TextView android:id="@+id/tvScreenTimeSocial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/aurora_warning" android:textSize="18sp" android:fontFamily="sans-serif-medium" android:layout_marginTop="4dp" tools:text="2h 15m" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Social" android:textColor="?attr/auroraTextMuted" android:textSize="11sp" />
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💼" android:textSize="24sp" />
+                    <TextView android:id="@+id/tvScreenTimeProductive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/aurora_success" android:textSize="18sp" android:fontFamily="sans-serif-medium" android:layout_marginTop="4dp" tools:text="4h 30m" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Productive" android:textColor="?attr/auroraTextMuted" android:textSize="11sp" />
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎮" android:textSize="24sp" />
+                    <TextView android:id="@+id/tvScreenTimeOther" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/aurora_primary" android:textSize="18sp" android:fontFamily="sans-serif-medium" android:layout_marginTop="4dp" tools:text="1h 45m" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Other" android:textColor="?attr/auroraTextMuted" android:textSize="11sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Meditation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/auroraCardDrawable"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/mind_meditation"
+                    android:textColor="?attr/auroraTextSecondary"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tvMeditationStreak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/aurora_success"
+                    android:textSize="12sp"
+                    tools:text="🔥 5 day streak" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvMeditationTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="?attr/auroraTextPrimary"
+                android:textSize="36sp"
+                android:fontFamily="sans-serif-light"
+                tools:text="10:00" />
+
+            <TextView
+                android:id="@+id/btnStartMeditation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_primary"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/mind_start_meditation"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+
+        <!-- Journal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/auroraCardDrawable"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mind_journal"
+                android:textColor="?attr/auroraTextSecondary"
+                android:textSize="13sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/etJournal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="?attr/auroraInputDrawable"
+                android:gravity="top|start"
+                android:hint="@string/mind_journal_hint"
+                android:padding="12dp"
+                android:textColor="?attr/auroraTextPrimary"
+                android:textColorHint="?attr/auroraTextMuted"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/btnSaveJournal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_outline"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="8dp"
+                android:text="Save Entry"
+                android:textColor="@color/aurora_primary"
+                android:textSize="13sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

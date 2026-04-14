@@ -1,0 +1,120 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ============================================ -->
+    <!-- DARK AURORA THEME (Default)                  -->
+    <!-- ============================================ -->
+    <style name="Theme.TejView.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/aurora_primary</item>
+        <item name="colorPrimaryDark">@color/aurora_primary_dark</item>
+        <item name="colorAccent">@color/aurora_primary</item>
+        <item name="colorOnPrimary">@color/aurora_text_primary</item>
+        <item name="android:colorBackground">@color/aurora_background</item>
+        <item name="colorSurface">@color/aurora_surface</item>
+        <item name="colorOnSurface">@color/aurora_text_primary</item>
+        <item name="android:textColorPrimary">@color/aurora_text_primary</item>
+        <item name="android:textColorSecondary">@color/aurora_text_secondary</item>
+        <item name="android:statusBarColor">@color/aurora_background</item>
+        <item name="android:navigationBarColor">@color/aurora_nav_background</item>
+        <item name="android:windowBackground">@color/aurora_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+        <!-- Custom aurora attributes (Dark) -->
+        <item name="auroraBackground">@color/aurora_background</item>
+        <item name="auroraCardSurface">@color/aurora_card_surface</item>
+        <item name="auroraCardBorder">@color/aurora_card_border</item>
+        <item name="auroraTextPrimary">@color/aurora_text_primary</item>
+        <item name="auroraTextSecondary">@color/aurora_text_secondary</item>
+        <item name="auroraTextTertiary">@color/aurora_text_tertiary</item>
+        <item name="auroraTextMuted">@color/aurora_text_muted</item>
+        <item name="auroraNavBackground">@color/aurora_nav_background</item>
+        <item name="auroraCardDrawable">@drawable/bg_glass_card_dark</item>
+        <item name="auroraSerenityDrawable">@drawable/bg_serenity_card</item>
+        <item name="auroraInputDrawable">@drawable/bg_input_field</item>
+    </style>
+
+    <!-- ============================================ -->
+    <!-- LIGHT AURORA THEME (Glassmorphic)            -->
+    <!-- ============================================ -->
+    <style name="Theme.TejView.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/aurora_primary_dark</item>
+        <item name="colorPrimaryDark">@color/aurora_primary_muted</item>
+        <item name="colorAccent">@color/aurora_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_text_primary</item>
+        <item name="android:textColorPrimary">@color/light_text_primary</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+        <item name="android:statusBarColor">@color/light_background</item>
+        <item name="android:navigationBarColor">@color/light_nav_background</item>
+        <item name="android:windowBackground">@color/light_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!-- Custom aurora attributes (Light) -->
+        <item name="auroraBackground">@color/light_background</item>
+        <item name="auroraCardSurface">@color/light_card_surface</item>
+        <item name="auroraCardBorder">@color/light_card_border</item>
+        <item name="auroraTextPrimary">@color/light_text_primary</item>
+        <item name="auroraTextSecondary">@color/light_text_secondary</item>
+        <item name="auroraTextTertiary">@color/light_text_tertiary</item>
+        <item name="auroraTextMuted">@color/light_text_muted</item>
+        <item name="auroraNavBackground">@color/light_nav_background</item>
+        <item name="auroraCardDrawable">@drawable/bg_glass_card_light</item>
+        <item name="auroraSerenityDrawable">@drawable/bg_serenity_card_light</item>
+        <item name="auroraInputDrawable">@drawable/bg_input_field_light</item>
+    </style>
+
+    <!-- Default theme alias (points to Dark) -->
+    <style name="Theme.TejView" parent="Theme.TejView.Dark" />
+
+    <!-- ============================================ -->
+    <!-- SHARED TEXT STYLES                           -->
+    <!-- ============================================ -->
+    <style name="AuroraCard">
+        <item name="android:background">?attr/auroraCardDrawable</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="AuroraText.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">?attr/auroraTextPrimary</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="AuroraText.Subtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">?attr/auroraTextSecondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AuroraText.MetricValue" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:textColor">?attr/auroraTextPrimary</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="AuroraText.MetricLabel" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">?attr/auroraTextTertiary</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="AuroraText.CardTitle" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">?attr/auroraTextPrimary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="AuroraBottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">?attr/auroraNavBackground</item>
+        <item name="itemIconTint">@color/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@color/bottom_nav_color_selector</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemActiveIndicatorStyle">@style/AuroraNavIndicator</item>
+    </style>
+
+    <style name="AuroraNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/aurora_nav_indicator</item>
+    </style>
+</resources>

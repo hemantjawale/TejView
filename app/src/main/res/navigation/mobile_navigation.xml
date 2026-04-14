@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.tejview.ui.dashboard.DashboardFragment"
+        android:label="@string/nav_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_activity"
+        android:name="com.example.tejview.ui.activity.ActivityFragment"
+        android:label="@string/nav_activity"
+        tools:layout="@layout/fragment_activity" />
+
+    <fragment
+        android:id="@+id/navigation_sleep"
+        android:name="com.example.tejview.ui.sleep.SleepFragment"
+        android:label="@string/nav_sleep"
+        tools:layout="@layout/fragment_sleep" />
+
+    <fragment
+        android:id="@+id/navigation_health"
+        android:name="com.example.tejview.ui.health.HealthFragment"
+        android:label="@string/nav_health"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/navigation_mind"
+        android:name="com.example.tejview.ui.mind.MindFragment"
+        android:label="@string/nav_mind"
+        tools:layout="@layout/fragment_mind" />
+</navigation>

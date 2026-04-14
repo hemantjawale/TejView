@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/nav_dashboard" />
+    <item
+        android:id="@+id/navigation_activity"
+        android:icon="@drawable/ic_activity"
+        android:title="@string/nav_activity" />
+    <item
+        android:id="@+id/navigation_sleep"
+        android:icon="@drawable/ic_sleep"
+        android:title="@string/nav_sleep" />
+    <item
+        android:id="@+id/navigation_health"
+        android:icon="@drawable/ic_health"
+        android:title="@string/nav_health" />
+    <item
+        android:id="@+id/navigation_mind"
+        android:icon="@drawable/ic_mind"
+        android:title="@string/nav_mind" />
+</menu>

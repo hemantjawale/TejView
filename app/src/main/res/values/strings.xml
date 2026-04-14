@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TejView</string>
+    <string name="app_tagline">Your Health, Visualized</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_sleep">Sleep</string>
+    <string name="nav_health">Health</string>
+    <string name="nav_mind">Mind</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting_morning">Good Morning</string>
+    <string name="dashboard_greeting_afternoon">Good Afternoon</string>
+    <string name="dashboard_greeting_evening">Good Evening</string>
+    <string name="dashboard_greeting_night">Good Night</string>
+    <string name="dashboard_serenity">Serenity Score</string>
+    <string name="dashboard_today">Today\'s Overview</string>
+
+    <!-- Metrics -->
+    <string name="metric_bpm">BPM</string>
+    <string name="metric_spo2">SpO2</string>
+    <string name="metric_steps">Steps</string>
+    <string name="metric_calories">Cal</string>
+    <string name="metric_active_min">Active Min</string>
+    <string name="metric_water">Water</string>
+    <string name="metric_protein">Protein</string>
+    <string name="metric_sleep">Sleep</string>
+    <string name="metric_glasses">glasses</string>
+    <string name="metric_grams">g</string>
+    <string name="metric_hours">hrs</string>
+    <string name="metric_percent">%</string>
+
+    <!-- Activity -->
+    <string name="activity_title">Activity Tracker</string>
+    <string name="activity_running">Running</string>
+    <string name="activity_cycling">Cycling</string>
+    <string name="activity_yoga">Yoga</string>
+    <string name="activity_gym">Gym Workout</string>
+    <string name="activity_swimming">Swimming</string>
+    <string name="activity_walking">Walking</string>
+    <string name="activity_start">Start Workout</string>
+    <string name="activity_stop">Stop Workout</string>
+    <string name="activity_log">Log Exercise</string>
+    <string name="activity_today_stats">Today\'s Activity</string>
+    <string name="activity_weekly_goal">Weekly Goal</string>
+
+    <!-- Sleep -->
+    <string name="sleep_title">Sleep Analysis</string>
+    <string name="sleep_quality">Sleep Quality</string>
+    <string name="sleep_duration">Duration</string>
+    <string name="sleep_deep">Deep Sleep</string>
+    <string name="sleep_light">Light Sleep</string>
+    <string name="sleep_rem">REM Sleep</string>
+    <string name="sleep_awake">Awake</string>
+    <string name="sleep_bedtime">Bedtime</string>
+    <string name="sleep_wake">Wake Up</string>
+    <string name="sleep_start_tracking">Start Sleep Tracking</string>
+    <string name="sleep_stop_tracking">Stop Tracking</string>
+    <string name="sleep_weekly_avg">Weekly Average</string>
+
+    <!-- Health -->
+    <string name="health_title">Health Hub</string>
+    <string name="health_vitals">Vitals</string>
+    <string name="health_nutrition">Nutrition</string>
+    <string name="health_medical">Medical Records</string>
+    <string name="health_issues">Health Issues</string>
+    <string name="health_hydration">Hydration</string>
+    <string name="health_add_water">Add Water</string>
+    <string name="health_add_protein">Log Protein</string>
+    <string name="health_add_medication">Log Medication</string>
+    <string name="health_add_issue">Report Issue</string>
+
+    <!-- Mental Health -->
+    <string name="mind_title">Mental Wellness</string>
+    <string name="mind_mood">Mood Tracker</string>
+    <string name="mind_screen_time">Screen Time</string>
+    <string name="mind_digital_wellbeing">Digital Wellbeing</string>
+    <string name="mind_meditation">Meditation</string>
+    <string name="mind_journal">Journal</string>
+    <string name="mind_stress">Stress Level</string>
+    <string name="mind_app_usage">App Usage</string>
+
+    <!-- General Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_view_all">View All</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Descriptions -->
+    <string name="desc_heart_rate">Resting Heart Rate</string>
+    <string name="desc_blood_oxygen">Blood Oxygen</string>
+    <string name="desc_daily_steps">Daily Steps</string>
+    <string name="desc_calories_burned">Calories Burned</string>
+
+    <!-- Missing strings for rebuilt layouts -->
+    <string name="activity_choose_workout">Choose your workout</string>
+    <string name="activity_recent">Recent Activity</string>
+    <string name="health_blood_pressure">Blood Pressure</string>
+    <string name="health_protein">Protein Intake</string>
+    <string name="health_medications">Medications</string>
+    <string name="health_alerts">Health Alerts</string>
+    <string name="mind_how_feeling">How are you feeling?</string>
+    <string name="mind_stress_level">Stress Level</string>
+    <string name="mind_start_meditation">Start Meditation</string>
+    <string name="mind_journal_hint">Write your thoughts…</string>
+    <string name="sleep_phases">Sleep Phases</string>
+    <string name="sleep_schedule">Sleep Schedule</string>
+    <string name="sleep_weekly">Weekly Pattern</string>
+</resources>
